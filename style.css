@@ -1,0 +1,166 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background for the body */
+    color: #ffffff; /* Light text color for contrast */
+}
+
+/* Header styles */
+header {
+    position: relative;
+    height: 75vh; /* Adjust the height as needed */
+    background-image: url('images/hero.png'); /* Ensure the path to the image is correct */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+
+
+/* Navigation styles */
+nav {
+    position: fixed; /* Fixed position to keep it at the top of the page */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    z-index: 1000; /* Ensure it's above other content */
+    padding: 10px 0; /* Add some padding */
+}
+
+/* Centered navigation menu styles */
+nav ul {
+    display: flex;
+    justify-content: center; /* Center the menu items */
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove default list styling */
+}
+
+nav li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav a {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0 20px; /* Space out the links */
+}
+
+
+nav a:hover {
+    color: #ddd; /* Lighter color on hover for the navigation links */
+}
+
+/* Hamburger Menu Icon styles */
+.hamburger-menu {
+    display: none; /* Hide by default, will be shown in mobile view */
+    flex-direction: column;
+    cursor: pointer;
+    padding: 15px;
+  }
+  
+  .bar {
+    height: 3px;
+    width: 30px;
+    background-color: #fff; /* Color of hamburger icon bars */
+    margin: 5px 0; /* Space between bars */
+    transition: 0.4s; /* Smooth transition for animations */
+  }
+  
+  /* Hide hamburger menu on larger screens, show horizontal nav */
+  @media (min-width: 769px) {
+    .hamburger-menu {
+      display: none; /* Ensure hamburger menu is not shown on desktop */
+    }
+  
+    .navbar {
+      display: flex; /* Standard horizontal navigation display */
+      /* Your styles for navbar here */
+    }
+  }
+  
+  /* Mobile view styles */
+  @media (max-width: 768px) {
+    .navbar {
+      position: fixed; /* Fixed position to stay on screen while scrolling */
+      top: 0; /* Align to top */
+      left: -100%; /* Initially hide off-screen to the left */
+      height: 100vh; /* Full viewport height */
+      width: 100%; /* Full viewport width */
+      background: #333; /* Background color of the navbar */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: left 0.3s; /* Smooth transition for showing/hiding menu */
+    }
+  
+    .navbar.show {
+      left: 0; /* Position navbar on-screen when 'show' class is added */
+    }
+  
+    .hamburger-menu {
+      display: flex; /* Show hamburger menu in mobile view */
+    }
+  }
+  
+
+/* Section styling for services */
+.services {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #222; /* Dark background for the services section */
+}
+
+.services h2 {
+    color: #fff; /* Light text color for headings */
+}
+
+/* Services grid and items */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items per row */
+    gap: 30px;
+    margin: 0 auto; /* Center grid in the middle of the page */
+    max-width: 1200px; /* Maximum width of the grid */
+}
+
+.service-item {
+    background-color: #2a2a2a; /* Even darker background for service items */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    transition: all 0.3s ease-in-out;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+/* Footer styling */
+footer {
+    background-color: #1f1f1f; /* Same as the header */
+    color: #ffffff; /* Light text color for readability */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 1200px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two items per row for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr; /* One item per row for mobile screens */
+    }
+}
