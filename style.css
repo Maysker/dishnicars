@@ -58,58 +58,6 @@ nav a:hover {
     color: #ddd; /* Lighter color on hover for the navigation links */
 }
 
-/* Hamburger Menu Icon styles */
-.hamburger-menu {
-    display: none; /* Hide by default, will be shown in mobile view */
-    flex-direction: column;
-    cursor: pointer;
-    padding: 15px;
-  }
-  
-  .bar {
-    height: 3px;
-    width: 30px;
-    background-color: #fff; /* Color of hamburger icon bars */
-    margin: 5px 0; /* Space between bars */
-    transition: 0.4s; /* Smooth transition for animations */
-  }
-  
-  /* Hide hamburger menu on larger screens, show horizontal nav */
-  @media (min-width: 769px) {
-    .hamburger-menu {
-      display: none; /* Ensure hamburger menu is not shown on desktop */
-    }
-  
-    .navbar {
-      display: flex; /* Standard horizontal navigation display */
-      /* Your styles for navbar here */
-    }
-  }
-  
-  /* Mobile view styles */
-  @media (max-width: 768px) {
-    .navbar {
-      position: fixed; /* Fixed position to stay on screen while scrolling */
-      top: 0; /* Align to top */
-      left: -100%; /* Initially hide off-screen to the left */
-      height: 100vh; /* Full viewport height */
-      width: 100%; /* Full viewport width */
-      background: #333; /* Background color of the navbar */
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      transition: left 0.3s; /* Smooth transition for showing/hiding menu */
-    }
-  
-    .navbar.show {
-      left: 0; /* Position navbar on-screen when 'show' class is added */
-    }
-  
-    .hamburger-menu {
-      display: flex; /* Show hamburger menu in mobile view */
-    }
-  }
-  
 
 /* Section styling for services */
 .services {
@@ -163,4 +111,44 @@ footer {
     .services-grid {
         grid-template-columns: 1fr; /* One item per row for mobile screens */
     }
+}
+
+/* Section styling for our works */
+
+.our-works {
+  background-color: #333; /* Background color for the section */
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Container for the video section */
+.our-works {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Styling for the video gallery */
+.video-gallery {
+  display: flex;
+  flex-direction: row; /* Arrange items in a row */
+  flex-wrap: wrap; /* Wrap to the next line if there's not enough space */
+  justify-content: center; /* Horizontal alignment of the content to the center */
+  align-items: center; /* Vertical alignment of the content to the center */
+  gap: 20px; /* Space between elements */
+  padding: 20px; /* Padding inside the container */
+  margin: auto; /* Automatic margins to center the container */
+}
+
+.video-item {
+  width: 300px; /* Fixed width for video items */
+  margin-bottom: 20px; /* Space below each video item */
+  border-radius: 10px;
+  /* Other styles for .video-item */
+}
+
+video {
+  width: 100%; /* Video fills the width of its container */
+  height: auto; /* Height is adjusted automatically */
+  display: block; /* Ensures that video is a block-level element */
 }

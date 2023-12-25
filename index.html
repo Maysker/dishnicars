@@ -8,11 +8,6 @@
 </head>
 <body>
     <header>
-        <div class="hamburger-menu" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
         <nav class="navbar">
             <ul>
               <li><a href="#home">Home</a></li>
@@ -26,7 +21,7 @@
         </div>
     </header>
     <section class="services">
-        <h2>Our Services</h2>
+        <h2>Onze diensten</h2>
         <div class="services-grid">
             <div class="service-item">
                 <h3>Depannage 24/7</h3>
@@ -55,13 +50,34 @@
             <!-- Repeat the structure for other services -->
         </div>
     </section>
-    
+    <!-- Section for showcasing work -->
     <section class="our-works">
-        <h2>Our Works</h2>
-        <div class="work-item">
-            <!-- Content showcasing the work, such as photos or videos -->
+        <h2>Onze werken</h2>
+        <div class="video-gallery">
+            <!-- Each video item includes a video with custom controls -->
+            <div class="video-item">
+                <video controls preload="metadata">
+                    <source src="video/first.mp4" type="video/mp4">
+                    <!-- Text for browsers that do not support the video element -->
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-item">
+                <video controls preload="metadata">
+                    <source src="video/second.mp4" type="video/mp4">
+                    <!-- Text for browsers that do not support the video element -->
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-item">
+                <video controls preload="metadata">
+                    <source src="video/third.mp4" type="video/mp4">
+                    <!-- Text for browsers that do not support the video element -->
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Repeat for additional videos -->
         </div>
-        <!-- Additional works can be displayed similarly -->
     </section>
     
     <footer>
@@ -72,7 +88,7 @@
             <a href="https://www.tiktok.com/@dishni_cars" target="_blank">TikTok</a>
             <!-- Additional social links can be added here -->
         </div>
-        <p>&copy; 2023 Auto Service. All rights reserved.</p>
+        <p>&copy; 2023 Dishni cars. All rights reserved.</p>
     </footer>
     <script>
         function toggleMenu() {
