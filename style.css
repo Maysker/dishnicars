@@ -92,63 +92,222 @@ nav a:hover {
     box-shadow: 0 12px 24px rgba(0,0,0,0.5);
 }
 
-/* Footer styling */
-footer {
-    background-color: #1f1f1f; /* Same as the header */
-    color: #ffffff; /* Light text color for readability */
-    padding: 20px;
-    text-align: center;
-}
-
-/* Responsive design adjustments */
-@media (max-width: 1200px) {
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr); /* Two items per row for smaller screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .services-grid {
-        grid-template-columns: 1fr; /* One item per row for mobile screens */
-    }
-}
-
 /* Section styling for our works */
 
 .our-works {
-  background-color: #333; /* Background color for the section */
-  color: #fff;
-  padding: 50px 20px;
-  text-align: center;
-}
+    background-color: #333; /* Background color for the section */
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Container for the video section */
+  .our-works {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  /* Styling for the video gallery */
+  .video-gallery {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    flex-wrap: wrap; /* Wrap to the next line if there's not enough space */
+    justify-content: center; /* Horizontal alignment of the content to the center */
+    align-items: center; /* Vertical alignment of the content to the center */
+    gap: 20px; /* Space between elements */
+    padding: 20px; /* Padding inside the container */
+    margin: auto; /* Automatic margins to center the container */
+  }
+  
+  .video-item {
+    width: 300px; /* Fixed width for video items */
+    margin-bottom: 20px; /* Space below each video item */
+    border-radius: 10px;
+    /* Other styles for .video-item */
+  }
+  
+  video {
+    width: 100%; /* Video fills the width of its container */
+    height: auto; /* Height is adjusted automatically */
+    display: block; /* Ensures that video is a block-level element */
+  }
+  
 
-/* Container for the video section */
-.our-works {
-  text-align: center;
-  padding: 2rem 0;
-}
+/* Footer styling */
+.footer-distributed{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  .footer-distributed .footer-left {
+    width: 40%; /* You can adjust the width as necessary */
+    padding: 0;
+    color: #ffffff;
+    margin-left: 30px;
+  }
+  
+    /* Hours of Operation Styles */
+  .footer-distributed .footer-left h3 {
+    margin-bottom: 15px;
+    color: inherit;
+    font-size: 24px; /* Adjust size as necessary */
+  }
+  
+  .footer-distributed .hours {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+  }
+  
+  .footer-distributed .hours td,
+  .footer-distributed .hours th {
+    padding: 5px 0; /* Adjust padding as necessary */
+    color: #92999f; /* This is your text color */
+    text-align: left;
+    font-size: 13px; /* Adjust font size as necessary */
+    padding-right: 8px;
+  }
 
-/* Styling for the video gallery */
-.video-gallery {
-  display: flex;
-  flex-direction: row; /* Arrange items in a row */
-  flex-wrap: wrap; /* Wrap to the next line if there's not enough space */
-  justify-content: center; /* Horizontal alignment of the content to the center */
-  align-items: center; /* Vertical alignment of the content to the center */
-  gap: 20px; /* Space between elements */
-  padding: 20px; /* Padding inside the container */
-  margin: auto; /* Automatic margins to center the container */
-}
+    
+  .footer-distributed .hours tr {
+    border-bottom: 1px solid #333;
+  }
+  
+  .footer-distributed .hours tr:last-child {
+    border-bottom: none;
+  }
+  
+  .footer-distributed .hours td span {
+    font-size: 0.9em;
+    color: #888; /* This is the color for the special notes */
+  }
+  
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color: #5383d3;
+    text-decoration: none;;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* Footer Bottom */
+  
+  .footer-distributed .footer-bottom{
+    margin-top: 2em;
+    text-align: center;
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Responsive */
+  
+  @media (max-width: 768px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px; 
+    }
+    
+  }
 
-.video-item {
-  width: 300px; /* Fixed width for video items */
-  margin-bottom: 20px; /* Space below each video item */
-  border-radius: 10px;
-  /* Other styles for .video-item */
-}
-
-video {
-  width: 100%; /* Video fills the width of its container */
-  height: auto; /* Height is adjusted automatically */
-  display: block; /* Ensures that video is a block-level element */
-}
+  
