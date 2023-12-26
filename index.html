@@ -6,10 +6,11 @@
     <title>Dishnicars.be</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar fixed-top">
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#services">Services</a></li>
@@ -17,10 +18,8 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>        
-        <div class="hero-banner">
-            <h1>DISHNICARS.BE</h1>
-        </div>
     </header>
+    <!--
     <section class="services">
         <h2>Onze diensten</h2>
         <div class="services-grid">
@@ -50,16 +49,20 @@
             </div>
             <!-- Repeat the structure for other services -->
         </div>
+        
     </section>
     <!-- Section for showcasing work -->
+    <!--
     <section class="our-works">
         <h2>Onze werken</h2>
         <div class="video-gallery">
             <!-- Each video item includes a video with custom controls -->
+            <!--
             <div class="video-item">
                 <video controls preload="metadata">
                     <source src="video/first.mp4" type="video/mp4">
                     <!-- Text for browsers that do not support the video element -->
+                    <!--
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -67,6 +70,7 @@
                 <video controls preload="metadata">
                     <source src="video/second.mp4" type="video/mp4">
                     <!-- Text for browsers that do not support the video element -->
+                    <!--
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -74,98 +78,120 @@
                 <video controls preload="metadata">
                     <source src="video/third.mp4" type="video/mp4">
                     <!-- Text for browsers that do not support the video element -->
+                    <!--
                     Your browser does not support the video tag.
                 </video>
             </div>
             <!-- Repeat for additional videos -->
+            <!--
         </div>
     </section>
-    
-    <footer class="footer-distributed">
-        <div class="footer-left">
-            <h3>Openingsuren</h3>
-            <table class="hours">
-              <tr>
-                <td>Maandag</td>
-                <td>8:30 – 17:30</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Dinsdag</td>
-                <td>8:30 – 17:30</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Woensdag</td>
-                <td>8:30 – 17:30</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Donderdag</td>
-                <td>8:30 – 17:30</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Vrijdag</td>
-                <td>8:30 – 17:30</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Zaterdag</td>
-                <td>8:30 – 17:30</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Zondag</td>
-                <td>Gesloten</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Nieuwjaarsdag</td>
-                <td>Gesloten</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Kerstdag</td>
-                <td>Mogelijk gewijzigd</td>
-                <td></td>
-              </tr>
-            </table>
+  -->
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <div class="cta-text">
+                              <h4>Adres</h4>
+                              <span> Sint-Lutgardisstraat 1, 3800 Sint-Truiden</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-phone"></i>
+                          <div class="cta-text">
+                              <h4>Contactnummer</h4>
+                              <span>+32 478 17 37 79</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="far fa-envelope-open"></i>
+                          <div class="cta-text">
+                              <h4>Mail ons</h4>
+                              <span>info@dishnicars.be</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-              
-        <div class="footer-center">
-          <div>
-            <i class="fa fa-map-marker"></i>
-            <p><span>Sint-Lutgardisstraat 1</span> 3800 Sint-Truiden</p>
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                          </div>
+                          <div class="footer-text">
+                              <p>Terwijl we beproefde tradities behouden, blijven we onvermoeibaar innoveren om ervoor te zorgen dat elke klant tevreden vertrekt, in de auto van zijn dromen!</p>
+                          </div>
+                          <div class="footer-social-icon">
+                              <span>Volg ons</span>
+                              <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                              <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                              <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Openingsuren</h3>
+                          </div>
+                          <ul>
+                            <li>Manadag: 8:30 –17:30</li>
+                            <li>Dinsdag: 8:30 –17:30</li>
+                            <li>Woensdag: 8:30 –17:30</li>
+                            <li>Donderdag: 8:30 –17:30</li>
+                            <li>Frijdag: 8:30 –17:30</li>
+                            <li>Zaterdag: 8:30 –12:30</li>
+                            <li>Zondag gesloten</li>
+                            <li>Oudejaarsdag: gesloten</li>
+                            <li>Nieuwjaarsdag: variabel</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Abonneren</h3>
+                          </div>
+                          <div class="footer-text mb-25">
+                              <p>Laat niet na te abonneren op onze nieuwe feeds, vul vriendelijk het onderstaande formulier in.</p>
+                          </div>
+                          <div class="subscribe-form">
+                              <form action="#">
+                                  <input type="text" placeholder="Email Address">
+                                  <button><i class="fab fa-telegram-plane"></i></button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div>
-            <i class="fa fa-phone"></i>
-            <p>+32 478 17 37 79</p>
+      </div>
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>Copyright &copy; 2023, All Right Reserved <a href="https://dishnicars.be/">Dishni cars</a></p>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                          <p>Developed by <a href="https://github.com/Maysker">Adam Gazdiev</a></p>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">support@dishnicars.com</a></p>
-          </div>
-        </div>
-      
-        <div class="footer-right">
-          <p class="footer-company-about">
-            <span>About the company</span>
-            Dishni Cars is a leader in luxury car sales and maintenance. We provide the best selection of premium cars and top-notch services.
-          </p>
-          <div class="footer-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      
-        <div class="footer-bottom">
-          <p>Developed by Adam Gazdiev</p>
-        </div>
-      </footer>
-      
+      </div>
+    </footer>
     <script>
         function toggleMenu() {
           var navbar = document.querySelector('.navbar');
