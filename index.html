@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
     <title>Dishnicars.be</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -10,83 +11,35 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top">
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>        
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+            <a class="navbar-brand" href="#">Dishnicars.be</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <!--
-    <section class="services">
-        <h2>Onze diensten</h2>
-        <div class="services-grid">
-            <div class="service-item">
-                <h3>Depannage 24/7</h3>
-                <p>Onze evacuatiedienst is altijd klaar om te helpen, dag en nacht. Van  efficiënte evacuatie tot gekwalificeerde ondersteuning - we zijn er  altijd wanneer uw auto ons nodig heeft </p>
-            </div>
-            <div class="service-item">
-                <h3>Aankoop & Verkoop tweedehands Auto’s</h3>
-                <p>Bij ons kunt u zowel tweedehands auto's kopen als verkopen. Wij bieden  een betrouwbare service, met een zorgvuldig geselecteerd aanbod voor  kopers en een vlotte verkoopervaring voor verkopers, waarbij  tevredenheid en vertrouwen centraal staan bij elke transactie </p>
-            </div>
-            <div class="service-item">
-                <h3>Onderhoud+Keuring</h3>
-                <p>Zorg voor de veiligheid en de naleving van uw auto met onze professionele voorbereiding en begeleiding bij de autokeuring. Wij zorgen ervoor dat uw auto voldoet aan alle standaarden en wettelijke eisen.</p>
-            </div>
-            <div class="service-item">
-                <h3>Car wrapping met gekleurde folies</h3>
-                <p>  Transformeer uw auto met een keuze uit diverse kleuren en texturen die  niet alleen het uiterlijk vernieuwen, maar ook beschermen tegen lichte  krassen en verkleuring. Dit is de perfecte oplossing voor degenen die  regelmatig hun stijl willen veranderen of de originele lak willen  beschermen. </p>
-            </div>
-            <div class="service-item">
-                <h3>Bescherming van auto's met steenslagfolie</h3>
-                <p>   Bied uw auto langdurige bescherming tegen wegcondities door schade van  grind, wegafval en zout te voorkomen. Onze film is onzichtbaar op de  carrosserie en beïnvloedt de kleur niet, waardoor het originele  uiterlijk behouden blijft en de waarde van uw auto wordt verhoogd bij  doorverkoop. </p>
-            </div>
-            <div class="service-item">
-                <h3>Carrosseriepolijsten met keramiek en vloeibaar glas aanbrengen</h3>
-                <p>Bied uw auto het hoogste niveau van glans en bescherming. Het aanbrengen  van een keramische coating of vloeibaar glas creëert een duurzame  barrière tegen corrosie, ultraviolet, chemicaliën en lichte krassen,  waardoor de auto gemakkelijker te onderhouden is en het uiterlijk  jarenlang behouden blijft. </p>
-            </div>
-            <!-- Repeat the structure for other services -->
-        </div>
-        
-    </section>
-    <!-- Section for showcasing work -->
-    <!--
-    <section class="our-works">
-        <h2>Onze werken</h2>
-        <div class="video-gallery">
-            <!-- Each video item includes a video with custom controls -->
-            <!--
-            <div class="video-item">
-                <video controls preload="metadata">
-                    <source src="video/first.mp4" type="video/mp4">
-                    <!-- Text for browsers that do not support the video element -->
-                    <!--
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="video-item">
-                <video controls preload="metadata">
-                    <source src="video/second.mp4" type="video/mp4">
-                    <!-- Text for browsers that do not support the video element -->
-                    <!--
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="video-item">
-                <video controls preload="metadata">
-                    <source src="video/third.mp4" type="video/mp4">
-                    <!-- Text for browsers that do not support the video element -->
-                    <!--
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <!-- Repeat for additional videos -->
-            <!--
-        </div>
-    </section>
-  -->
+    <main>
+        <section class="hero">
+            <!-- Home screen content -->
+        </section>
+        <!-- Other sections -->
+    </main>
     <footer class="footer-section">
       <div class="container">
           <div class="footer-cta pt-5 pb-5">
@@ -96,7 +49,7 @@
                           <i class="fas fa-map-marker-alt"></i>
                           <div class="cta-text">
                               <h4>Adres</h4>
-                              <span> Sint-Lutgardisstraat 1, 3800 Sint-Truiden</span>
+                              <span> Sint-Lutgardisstraat 1,<span class="d-inline d-md-none"><br></span> 3800 Sint-Truiden</span>
                           </div>
                       </div>
                   </div>
@@ -125,16 +78,17 @@
                   <div class="col-xl-4 col-lg-4 mb-50">
                       <div class="footer-widget">
                           <div class="footer-logo">
-                              <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                              <a href="index.html"><img src="images/dc-logo.png" class="img-fluid" alt="logo"></a>
                           </div>
                           <div class="footer-text">
                               <p>Terwijl we beproefde tradities behouden, blijven we onvermoeibaar innoveren om ervoor te zorgen dat elke klant tevreden vertrekt, in de auto van zijn dromen!</p>
                           </div>
                           <div class="footer-social-icon">
                               <span>Volg ons</span>
-                              <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                              <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                              <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                              <a href="https://www.tiktok.com/@dishni_cars" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok tiktok-bg"></i></a>
+                              <a href="https://www.instagram.com/dishni_cars/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram instagram-bg"></i></a>
+                              <a href="https://www.facebook.com/profile.php?id=100066962112278" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                                          
                           </div>
                       </div>
                   </div>
@@ -185,19 +139,16 @@
                   </div>
                   <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                       <div class="footer-menu">
-                          <p>Developed by <a href="https://github.com/Maysker">Adam Gazdiev</a></p>
+                          <p>Developed by <a href="https://github.com/Maysker" target="_blank" rel="noopener noreferrer">Adam Gazdiev</a></p>
                       </div>
                   </div>
               </div>
           </div>
       </div>
     </footer>
-    <script>
-        function toggleMenu() {
-          var navbar = document.querySelector('.navbar');
-          navbar.classList.toggle('show');
-        }
-        </script>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
