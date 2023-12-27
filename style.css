@@ -22,12 +22,12 @@ body {
 
 /* Navigation styles */
 
-/* Стили для основной навигационной панели и раскрывающегося меню */
+/* Styles for the main navbar and dropdown menu */
 .custom-navbar {
     background: rgba(0, 0, 0, 0.7);
 }
 
-/* Стиль для раскрывающегося меню на мобильных устройствах */
+/* Style for dropdown menu on mobile devices */
 .custom-navbar-collapse {
     background: rgba(0, 0, 0, 0.7);
 }
