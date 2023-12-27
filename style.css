@@ -1,13 +1,13 @@
 /* Base styles */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #121212; /* Dark background for the body */
-    color: #ffffff; /* Light text color for contrast */
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background for the body */
+  color: #ffffff; /* Light text color for contrast */
 }
 
-/* Main styles */
+
 .hero {
   position: relative;
   height: 75vh; /* Adjust the height as needed */
@@ -24,181 +24,257 @@ body {
 
 /* Styles for the main navbar and dropdown menu */
 .custom-navbar {
-    background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* Style for dropdown menu on mobile devices */
 .custom-navbar-collapse {
-    background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
 }
 /* Section styling for services */
 .services {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #222; /* Dark background for the services section */
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #222; /* Dark background for the services section */
+  color: #fff;
 }
 
 .services h2 {
-    color: #fff; /* Light text color for headings */
+  color: #fff; /* Light text color for headings */
+  padding-top: 15px;
+  margin-bottom: 25px;
 }
 
 /* Services grid and items */
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three items per row */
-    gap: 30px;
-    margin: 0 auto; /* Center grid in the middle of the page */
-    max-width: 1200px; /* Maximum width of the grid */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three items per row */
+  gap: 30px;
+  margin: 0 auto; /* Center grid in the middle of the page */
+  max-width: 1200px; /* Maximum width of the grid */
 }
 
 .service-item {
-    background-color: #2a2a2a; /* Even darker background for service items */
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Subtle shadow for depth */
-    transition: all 0.3s ease-in-out;
+  background-color: #2a2a2a; /* Even darker background for service items */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Subtle shadow for depth */
+  transition: all 0.3s ease-in-out;
 }
 
 .service-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.5);
 }
 
 /* Section styling for our works */
 
 .our-works {
-    background-color: #333; /* Background color for the section */
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
+  background-color: #333; /* Background color for the section */
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+.our-works h2 {
+  padding-top: 30px;
+}
+
   /* Container for the video section */
-  .our-works {
-    text-align: center;
-    padding: 2rem 0;
-  }
+.our-works {
+  text-align: center;
+  padding: 2rem 0;
+}
   
   /* Styling for the video gallery */
-  .video-gallery {
-    display: flex;
-    flex-direction: row; /* Arrange items in a row */
-    flex-wrap: wrap; /* Wrap to the next line if there's not enough space */
-    justify-content: center; /* Horizontal alignment of the content to the center */
-    align-items: center; /* Vertical alignment of the content to the center */
-    gap: 20px; /* Space between elements */
-    padding: 20px; /* Padding inside the container */
-    margin: auto; /* Automatic margins to center the container */
-  }
+.video-gallery {
+  display: flex;
+  flex-direction: row; /* Arrange items in a row */
+  flex-wrap: wrap; /* Wrap to the next line if there's not enough space */
+  justify-content: center; /* Horizontal alignment of the content to the center */
+  align-items: center; /* Vertical alignment of the content to the center */
+  gap: 20px; /* Space between elements */
+  padding: 20px; /* Padding inside the container */
+  margin: auto; /* Automatic margins to center the container */
+}
   
-  .video-item {
-    width: 300px; /* Fixed width for video items */
-    margin-bottom: 20px; /* Space below each video item */
-    border-radius: 10px;
-    /* Other styles for .video-item */
-  }
+.video-item {
+  width: 300px; /* Fixed width for video items */
+  margin-bottom: 20px; /* Space below each video item */
+  border-radius: 10px;
+  /* Other styles for .video-item */
+}
   
-  video {
-    width: 100%; /* Video fills the width of its container */
-    height: auto; /* Height is adjusted automatically */
-    display: block; /* Ensures that video is a block-level element */
-  }
-  
+video {
+  width: 100%; /* Video fills the width of its container */
+  height: auto; /* Height is adjusted automatically */
+  display: block; /* Ensures that video is a block-level element */
+  border-radius: 10px;
+}
+
+/*over ons*/
+.ons {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #222; /* Dark background for the services section */
+  color: #fff;
+}
+
+.ons h2 {
+  color: #fff;
+  padding-top: 15px;
+  margin-bottom: 25px;
+}
+
+.ons p {
+  text-align: justify
+}
+
+/* contact*/
+
+.contact {
+  padding: 60px 20px;
+  background-color: #222; /* Dark background for the services section */
+  color: #fff;
+}
+
+.container h2 {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+    
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-custom {
+  background-color: #ff5e14 !important;
+  color: #fff !important;
+}
+
+.btn-custom:hover {
+  background-color: #883711 !important;
+  border-color: #ffffff;
+}
+
+.btn-custom:hover {
+  color: #fff !important;
+}
 
 /* Footer */
-  ul {
-    margin: 0px;
-    padding: 0px;
-  }
-  .footer-section {
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section {
   background: #151414;
   position: relative;
-  }
-  .footer-cta {
+}
+
+.footer-cta {
   border-bottom: 1px solid #373636;
-  }
-  .single-cta i {
+}
+
+.single-cta i {
   color: #ff5e14;
   font-size: 30px;
   float: left;
   margin-top: 8px;
-  }
-  .cta-text {
+}
+  
+.cta-text {
   padding-left: 15px;
   display: inline-block;
-  }
-  .cta-text h4 {
+}
+  
+.cta-text h4 {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
-  }
-  .cta-text span {
+}
+
+.cta-text span {
   color: #757575;
   font-size: 15px;
-  }
-  .footer-content {
+}
+  
+.footer-content {
   position: relative;
   z-index: 2;
-  }
-  .footer-pattern img {
+}
+
+.footer-pattern img {
   position: absolute;
   top: 0;
   left: 0;
   height: 330px;
   background-size: cover;
   background-position: 100% 100%;
-  }
-  .footer-logo {
+}
+  
+.footer-logo {
   margin-bottom: 15px;
-  }
-  .footer-logo img {
-    max-width: 200px;
-  }
-  .footer-text p {
+}
+  
+.footer-logo img {
+  max-width: 200px;
+}
+
+.footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #7e7e7e;
+  color: #7e7e7e;
   line-height: 28px;
-  }
-  .footer-social-icon span {
+}
+
+.footer-social-icon span {
   color: #fff;
   display: block;
   font-size: 20px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
-  }
-  .footer-social-icon a {
+}
+  
+.footer-social-icon a {
   color: #fff;
   font-size: 16px;
   margin-right: 15px;
-  }
-  .footer-social-icon i {
+}
+
+.footer-social-icon i {
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 38px;
   border-radius: 50%;
-  }
-  .facebook-bg{
+}
+  
+.facebook-bg{
   background: #3B5998;
-  }
-  .instagram-bg{
+}
+  
+.instagram-bg{
   background: #55ACEE;
-  }
-  .tiktok-bg{
+}
+  
+.tiktok-bg{
   background: #DD4B39;
-  }
+}
 
-  .footer-widget-heading h3 {
+.footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
   position: relative;
-  }
-  .footer-widget-heading h3::before {
+}
+
+.footer-widget-heading h3::before {
   content: "";
   position: absolute;
   left: 0;
@@ -206,74 +282,92 @@ body {
   height: 2px;
   width: 50px;
   background: #ff5e14;
-  }
-  .footer-widget ul li {
+}
+  
+.footer-widget ul li {
   display: inline-block;
   float: left;
   width: 50%;
   margin-bottom: 12px;
   color: #878787;
   font-size: 14px;
-  }
-  .footer-widget ul li a:hover{
+}
+  
+.footer-widget ul li a:hover{
   color: #ff5e14;
-  }
-  .footer-widget ul li a {
+}
+  
+.footer-widget ul li a {
   color: #878787;
   text-transform: capitalize;
-  }
-  .subscribe-form {
+}
+  
+.subscribe-form {
   position: relative;
   overflow: hidden;
-  }
-  .subscribe-form input {
+}
+  
+.subscribe-form input {
   width: 100%;
   padding: 14px 28px;
   background: #2E2E2E;
   border: 1px solid #2E2E2E;
   color: #fff;
-  }
-  .subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #ff5e14;
-    padding: 13px 20px;
-    border: 1px solid #ff5e14;
-    top: 0;
-  }
-  .subscribe-form button i {
+}
+  
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+  
+.subscribe-form button i {
   color: #fff;
   font-size: 22px;
   transform: rotate(-6deg);
-  }
-  .copyright-area{
+}
+  
+.copyright-area{
   background: #202020;
   padding: 25px 0;
-  }
-  .copyright-text p {
+}
+  
+.copyright-text p {
   margin: 0;
   font-size: 14px;
   color: #878787;
-  }
-  .copyright-text p a{
+}
+  
+.copyright-text p a{
   color: #ff5e14;
-  }
-  .footer-menu p {
+}
+  
+.footer-menu p {
   margin: 0;
   font-size: 14px;
-    color: #878787;
-  }
-  .footer-menu p a{
+  color: #878787;
+}
+  
+.footer-menu p a{
   color: #ff5e14;
-  }
-  .footer-menu li a {
+}
+  
+.footer-menu li a {
   font-size: 14px;
   color: #878787;
-  }
+}
 
   @media (min-width: 768px) {
     .d-md-none {
       display: none;
     }
   }
+  @media only screen and (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr; 
+    }
+}
   
