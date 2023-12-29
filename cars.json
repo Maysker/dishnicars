@@ -1,0 +1,130 @@
+[
+  {
+    "id": "car1",
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2018,
+    "mileage": "35,000",
+    "fuelType": "Benzine",
+    "transmission": "Automatisch",
+    "price": "$15,000",
+    "images": [
+      "images/car1/image1.jpg",
+      "images/car1/image2.jpg",
+      "images/car1/image3.jpg"
+    ],
+    "description": "Uitstekende staat, één vorige eigenaar, regelmatig onderhouden."
+  },
+  {
+    "id": "car2",
+    "make": "Ford",
+    "model": "Focus",
+    "year": 2015,
+    "mileage": "50,000",
+    "fuelType": "Diesel",
+    "transmission": "Handgeschakeld",
+    "price": "$12,000",
+    "images": [
+      "images/car2/image1.jpg",
+      "images/car2/image2.jpg",
+      "images/car2/image3.jpg"
+    ],
+    "description": "Volledig onderhouden, recent remblokken en banden vervangen."
+  },
+  {
+    "id": "car3",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2020,
+    "mileage": "20,000",
+    "fuelType": "Benzine",
+    "transmission": "Automatisch",
+    "price": "$20,000",
+    "images": [
+      "images/car3/image1.jpg",
+      "images/car3/image2.jpg",
+      "images/car3/image3.jpg"
+    ],
+    "description": "Zeer goede staat, weinig gereden, als nieuw."
+  },
+  {
+    "id": "car4",
+    "make": "BMW",
+    "model": "3 Serie",
+    "year": 2022,
+    "mileage": "10,000",
+    "fuelType": "Benzine",
+    "transmission": "Automatisch",
+    "price": "$30,000",
+    "images": [
+      "images/car4/image1.jpg",
+      "images/car4/image2.jpg",
+      "images/car4/image3.jpg"
+    ],
+    "description": "Gloednieuw, weinig kilometers gemaakt, luxe auto."
+  },
+  {
+    "id": "car5",
+    "make": "Audi",
+    "model": "A4",
+    "year": 2021,
+    "mileage": "15,000",
+    "fuelType": "Benzine",
+    "transmission": "Automatisch",
+    "price": "$25,000",
+    "images": [
+      "images/car5/image1.jpg",
+      "images/car5/image2.jpg",
+      "images/car5/image3.jpg"
+    ],
+    "description": "Moderne en sportieve auto, uitstekende conditie."
+  },
+  {
+    "id": "car6",
+    "make": "Mercedes-Benz",
+    "model": "C-Klasse",
+    "year": 2020,
+    "mileage": "18,000",
+    "fuelType": "Benzine",
+    "transmission": "Automatisch",
+    "price": "$28,000",
+    "images": [
+      "images/car6/image1.jpg",
+      "images/car6/image2.jpg",
+      "images/car6/image3.jpg"
+    ],
+    "description": "Luxe en comfortabele auto, goed onderhouden."
+  },
+  {
+    "id": "car7",
+    "make": "Lexus",
+    "model": "RX",
+    "year": 2023,
+    "mileage": "5,000",
+    "fuelType": "Hybride",
+    "transmission": "Automatisch",
+    "price": "$35,000",
+    "images": [
+      "images/car7/image1.jpg",
+      "images/car7/image2.jpg",
+      "images/car7/image3.jpg"
+    ],
+    "description": "Nieuwste model, zuinig en luxueus."
+  },
+  {
+    "id": "car8",
+    "make": "Porsche",
+    "model": "911",
+    "year": 2022,
+    "mileage": "8,000",
+    "fuelType": "Benzine",
+    "transmission": "Automatisch",
+    "price": "$45,000",
+    "images": [
+      "images/car8/image1.jpg",
+      "images/car8/image2.jpg",
+      "images/car8/image3.jpg"
+    ],
+    "description": "Sportieve en krachtige sportwagen, in perfecte staat."
+  }
+]
