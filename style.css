@@ -31,6 +31,7 @@ body {
 .custom-navbar-collapse {
   background: rgba(0, 0, 0, 0.7);
 }
+
 /* Section styling for services */
 .services {
   padding: 60px 20px;
@@ -381,12 +382,22 @@ ul {
   color: #fff; 
 }
 
+.card-text {
+  min-height: 4em; 
+}
+
 .card {
   background-color: #333; 
   color: #fff; 
   border-radius: 15px;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.card:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
 }
 
 .card,
