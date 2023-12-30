@@ -63,7 +63,11 @@
     "images": [
       "images/car4/image1.jpg",
       "images/car4/image2.jpg",
-      "images/car4/image3.jpg"
+      "images/car4/image3.jpg",
+      "images/car4/image4.jpg",
+      "images/car4/image5.jpg",
+      "images/car4/image6.jpg"
+      
     ],
     "description": "Gloednieuw, weinig kilometers gemaakt, luxe auto."
   },
@@ -79,7 +83,10 @@
     "images": [
       "images/car5/image1.jpg",
       "images/car5/image2.jpg",
-      "images/car5/image3.jpg"
+      "images/car5/image3.jpg",
+      "images/car5/image4.jpg",
+      "images/car5/image5.jpg",
+      "images/car5/image6.jpg"
     ],
     "description": "Moderne en sportieve auto, uitstekende conditie."
   },
@@ -95,7 +102,11 @@
     "images": [
       "images/car6/image1.jpg",
       "images/car6/image2.jpg",
-      "images/car6/image3.jpg"
+      "images/car6/image3.jpg",
+      "images/car6/image4.jpg",
+      "images/car6/image5.jpg",
+      "images/car6/image6.jpg",
+      "images/car6/image7.jpg"
     ],
     "description": "Luxe en comfortabele auto, goed onderhouden."
   },
@@ -111,7 +122,11 @@
     "images": [
       "images/car7/image1.jpg",
       "images/car7/image2.jpg",
-      "images/car7/image3.jpg"
+      "images/car7/image3.jpg",
+      "images/car7/image4.jpg",
+      "images/car7/image5.jpg",
+      "images/car7/image6.jpg",
+      "images/car7/image7.jpg"
     ],
     "description": "Nieuwste model, zuinig en luxueus."
   },
@@ -127,7 +142,8 @@
     "images": [
       "images/car8/image1.jpg",
       "images/car8/image2.jpg",
-      "images/car8/image3.jpg"
+      "images/car8/image3.jpg",
+      "images/car8/image4.jpg"
     ],
     "description": "Sportieve en krachtige sportwagen, in perfecte staat."
   }
